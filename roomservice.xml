@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="mt6781" fetch="https://github.com/mt6781-devs" />
+  <remote name="vplus" fetch="https://github.com/vertekplus" />
+  <remote name="xmd" fetch="https://github.com/xiaomi-mediatek-devs" />
+  <remote name="dfpl" fetch="https://gitlab.com/ItzDFPlayer" />
+
+  <!-- device tree -->
+  <project path="device/xiaomi/fleur" name="android_device_xiaomi_fleur" remote="vplus" revision="lineage-22.1" />
+
+  <!-- SELinux policies -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mt6781" revision="lineage-22.0" />
+
+  <!-- hardware supports -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="mt6781" revision="lineage-22.1" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="xmd" revision="lineage-22.1" />
+
+  <!-- vendor tree -->
+  <project path="vendor/xiaomi/fleur" name="android_vendor_xiaomi_fleur" remote="vplus" revision="lineage-22.1" />
+
+  <!-- kernel tree -->
+  <project path="kernel/xiaomi/mt6781" name="android_kernel_xiaomi_mt6781" remote="mt6781" revision="lineage-22.1" />
+
+  <!-- miui camera -->
+  <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="dfpl" revision="leica-5.0" />
+
+</manifest>
