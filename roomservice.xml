@@ -13,7 +13,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="mt6781" revision="lineage-22.0" />
 
   <!-- hardware supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="mt6781" revision="lineage-22.1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="vplus" revision="lineage-22.1" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="xmd" revision="lineage-22.1" />
 
   <!-- vendor tree -->
